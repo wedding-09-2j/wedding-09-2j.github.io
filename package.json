@@ -1,0 +1,56 @@
+{
+  "name": "wedding-09-2j.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@morioh/v-lightbox": "^1.0.3",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "swiper": "^8.0.6",
+    "v-viewer": "^1.6.4",
+    "vue": "^2.6.14",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.4.1",
+    "@vue/cli-plugin-eslint": "~4.4.1",
+    "@vue/cli-plugin-router": "~4.4.1",
+    "@vue/cli-plugin-typescript": "~4.4.1",
+    "@vue/cli-plugin-vuex": "~4.4.1",
+    "@vue/cli-service": "~4.4.1",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "axios": "^0.26.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "prettier": "^1.19.1",
+    "sass": "1.32.0",
+    "sass-loader": "^10.0.2",
+    "typescript": "~3.9.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "globals": {
+      "kakao": false
+    }
+  }
+}
