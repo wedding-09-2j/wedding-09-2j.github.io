@@ -28,7 +28,7 @@
       어려운 시기에 축복해 주셔서 <br />
       감사합니다.
     </section>
-    <article class="" data-aos="fade-up" data-aos-offset="300" data-duration="3000">
+    <article class="" data-aos="fade-up" data-aos-offset="100" data-duration="3000">
       <section v-for="(brideGroom, idx) in accountData" class="contact-detail" :key="idx">
         <div v-for="(data, idx2) in brideGroom" :key="idx2" class="contact-detail-contents">
           <span>
