@@ -2,8 +2,7 @@
 @import '@/style/_variables.scss';
 body {
   margin: 0px;
-  height: 100vh;
-  // overflow: hidden;
+  background-color: #fffdf4 !important;
 }
 #app {
   font-family: $global-font;
@@ -51,18 +50,15 @@ body {
 #info-page,
 #thankyou-page {
   height: 100vh;
-  // scroll-snap-align: start;
   position: relative;
 }
 #start-page {
   .first {
     height: 100vh;
-    // scroll-snap-align: start;
     position: relative;
   }
   .second {
     height: 100vh;
-    // scroll-snap-align: start;
     position: relative;
   }
 }

@@ -49,7 +49,7 @@
       pills
       size="sm"
     ></b-pagination>
-    <div>
+    <div class="comment-group">
       <article class="comments" v-for="(data, idx) in currentComments" :key="idx">
         <section class="comment-title">
           <h1 class="comment-title__name">{{ data.title }}</h1>
@@ -133,6 +133,7 @@ export default class CommentPage extends Vue {
 <style lang="scss">
 #comment-page {
   font-family: var(--bs-body-font-family);
+  margin-bottom: 70px;
 }
 .save-btn {
   width: fit-content;
@@ -195,6 +196,9 @@ export default class CommentPage extends Vue {
   background-color: #ede6d96b;
   margin: 5px 10px;
   border-radius: 10px;
+}
+.comment-group {
+  margin-bottom: 45px;
 }
 .comment-title {
   display: flex;
