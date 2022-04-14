@@ -74,7 +74,8 @@ export default class CommentPage extends Vue {
   token2 = 'wsu2855tj';
   token3 = 'JP9diunwQc';
   token4 = 'ib219jO0mtU9p';
-  API_BASE_URL = 'https://api.github.com/repos/wedding-09-2j/wedding-09-2j.github.io/issues';
+  API_BASE_URL =
+    'https://api.github.com/repos/wedding-09-2j/wedding-09-2j.github.io/issues?per_page=100';
   res: Comment[] = [];
   comment: Comment = {
     title: '',
